@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    animation: name 5s;
+    transform: scale(5);
+}
+@keyframes name{
+    from { 
+        transform: scale(0) rotate(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(5) rotate(360deg);
+        opacity: 1;
+    }
+}
